@@ -175,19 +175,17 @@ text-align: center;
 }
 
 
-.temtation{
-    background-image:url('../img/stars.svg');
-    font-size: 2em;
-    background-repeat:no-repeat;
-    background-position: center;
-}
 
+h3{
+    padding-bottom: 2em;
+    font-size: 2em;
+}
 .xmac2{
-    background-color: white;
-    color: black;
-    padding: 8px;
+    background-color: #3161E0;
+    color: white;
+    padding: 15px;
     border-radius: 25px;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 
@@ -200,25 +198,45 @@ text-align: center;
 }
 
 .end-page{
-    margin-top: 2px;
     height: 200px;
 }
+
+
+
+.pink-box{
+width: calc((100% / 6) * 2);
+background-color:#23272A ;}
  
-.pink-box {
-    height: 80%;
-    width: calc((100% / 6) * 2);
-    background-color:#F08080 ;
+.pink-box>h3, .green-blu-box>h5{
+    color:#3161E0;
+    padding-bottom: ;
+    
+}
+i{
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+.italy{
+    width:2em ;
+}
+.pink-box>div{
+    padding-bottom: 2em;
 }
 
+footer>a{
+    color: white;
+}
+.pink-box>div{
+    color: white;
+    font-size: 5
+}
 .green-blu-box{
-    height: 80%;
     width: calc((100% / 6) * 4);
-    background-color:#20B2AA ;
+    background-color:#23272A ;
     display: flex;
 }
 
 .footer-column{
-    height: 100%;
     width: 25%;
 }
 
@@ -231,7 +249,7 @@ text-align: center;
 .end-div{
     width: 100%;
     height: 80%;
-    background-color: #7FFFD4;
+    background-color: #23272A;
     display:flex;
     align-items: center;
     justify-content: space-between;

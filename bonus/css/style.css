@@ -1,0 +1,327 @@
+
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*  general */
+*{
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    background-color: white;
+    border-radius:25px;
+    padding: 10px;
+}
+
+
+/* header */
+
+.header-box-link{
+background-color: #255EE9;
+width: 100%;
+height: 80px;
+padding: 15px;
+}
+
+.link-container{
+display: flex;
+background-image: url('../img/jumbo.png');
+margin: 0  20% ;
+font-size: 20px;
+justify-content: space-between;
+}
+.link-container>*{
+    padding: 10px 5px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+ul>li{
+    list-style: none;
+}
+
+.login>a{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.macdw{
+    background-color: white;
+    color: black;
+    padding: 16px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.browser-open{
+    background-color: black;
+    padding: 16px ;
+    margin-left: 20%;
+    border-radius: 25px;
+    font-size: 20px;
+
+}
+.button-link-header{
+   padding: 2em  ;
+   
+}
+.logo{
+width: 20%;
+}
+.link{
+width: 60%;
+text-align: center;
+color: white;
+}
+.login{
+width: 20%;
+text-align: end;
+}
+
+.login>a:hover{
+    color: white;
+    background-color: black;
+}
+
+.header-box-title{
+    background-image: url('../img/jumbo.png') ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.macdw:hover,.xmac2:hover{
+    color: white;
+    background-color: purple;
+}
+
+.title-box{
+    
+    width: 50%;
+    display: flex;
+    text-align: center;
+    color: white;
+  flex-direction: column;
+}
+
+h1{
+    font-size: 3.8em;
+    padding: 0 0 1.3em 0 ;
+}
+
+.title-box>p{
+    font-size: 1.3em;
+}
+
+ /* MAIN */
+
+section:not(.grey,.f-section){
+    padding: 0 20%;
+}
+
+section{
+    margin: 13em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main>.header-space{
+    margin-top: 13em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h2+p{
+    padding-top: 30px;
+    font-size: 1.3em;
+}
+.blu-box{
+    width: 60%;
+}
+
+.coral-box{
+    width: 40%;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.coral-box2{
+    width: 40%;
+    text-align: left;
+    padding-right: 10%;
+}
+.green-box{
+width: 100%;
+text-align: center;
+height: 73em;
+}
+.green-box>p{
+    padding: 1em 7em 2em 7em ;
+}
+
+.grey{
+    width: 100%;
+    padding:0 20%;
+    background-color: #E5E5E5;
+    margin: 0 auto 0 auto;
+    height: max-content;
+}
+
+.wave{
+    width: 100%;
+    height: 7em;
+    background-image: url('../img/wave.svg');
+    opacity: 0.1;
+    margin: 0px 0;
+
+}
+
+.rotate-wawe{
+    transform: rotate(180deg);
+}
+
+h3{
+    padding-bottom: 2em;
+    font-size: 2em;
+}
+.xmac2{
+    background-color: #3161E0;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+
+/* FOOTER */
+
+.f-section{
+    background-color:#23272A ;
+    width: 100%;
+    padding:3em 20%;
+    align-items: flex-start;
+    
+}
+.pink-box>h3{
+    padding-right: 2em;
+}
+.end-page{
+    height: 200px;
+}
+
+.pink-box{
+width: calc((100% / 6) * 2);
+background-color:#23272A ;
+height: 20rem;
+}
+ 
+.pink-box>h3, .footer-column>h5{
+    color:#3161E0;
+}
+
+h5{
+    font-size: 1.4em;
+}
+i{
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+
+.fa-brands:hover{
+    color: purple;
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.italy{
+    width:2em ;
+}
+.pink-box>div{
+    padding-bottom: 2em;
+}
+
+footer>a{
+    color: white;
+}
+.pink-box>div{
+    color: white;
+   
+}
+.green-blu-box{
+    width: calc((100% / 6) * 4);
+    background-color:#23272A ;
+    display: flex;
+    padding-bottom: 3em;
+    height: 20rem;
+}
+
+.pink-box,.green-blu-box{
+    border-bottom: solid white 1px;
+}
+
+
+.footer-column{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer>section{
+    margin: 0 auto;
+}
+
+.end-page{
+    height: 120px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.end-div{
+    width: 100%;
+    height: 80%;
+    background-color: #23272A;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pink-boxfoot{
+    
+    font-size: 20px;
+    padding: 5px;
+}
+/* DEBUG */
+
+.debug-black{
+    border: 4px dashed black;
+   
+}
+
+.debug-white{
+    border: 3px dashed white;
+}

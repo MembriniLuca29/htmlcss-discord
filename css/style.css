@@ -47,12 +47,21 @@ ul>li{
     list-style: none;
 }
 
+.linkHover:hover{
+    color: black;
+}
 .login>a{
     background-color: white;
     color: black;
-    padding: 8px;
+    padding: 8px 12px;
     border-radius: 25px;
     font-size: 16px;
+}
+
+.login>a:hover{
+   color: aliceblue;
+   background-color: black;
+   cursor: pointer;
 }
 
 .macdw{
@@ -62,6 +71,15 @@ ul>li{
     border-radius: 25px;
     font-size: 20px;
 }
+.macdw>i{
+    padding: 8px 8px 0 0;
+    font-size: 1.4rem;
+}
+
+.macdw:hover{
+    color: white;
+    background-color: black;
+}
 
 .browser-open{
     background-color: black;
@@ -69,8 +87,13 @@ ul>li{
     margin-left: 20%;
     border-radius: 25px;
     font-size: 20px;
-
 }
+
+.browser-open:hover{
+ color: black;
+ background-color: white;
+}
+
 .button-link-header{
    padding: 2em  ;
    
@@ -182,9 +205,19 @@ h3{
 .xmac2{
     background-color: #3161E0;
     color: white;
-    padding: 15px;
+    padding: 18px;
     border-radius: 25px;
     font-size: 24px;
+}
+
+.xmac2:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.xmac2>i{
+    font-size: 1.8rem;
+    padding: 10px 3px 0 0;
 }
 
 
@@ -209,6 +242,10 @@ background-color:#23272A ;
 padding-bottom: 4.9em;
 }
  
+.pink-box>h3{
+font-size: 1.8rem;
+}
+
 .pink-box>h3, .footer-column>h5{
     color:#3161E0;
 }
@@ -222,6 +259,29 @@ i{
 }
 .italy{
     width:2em ;
+    margin-right: 8px;
+}
+
+.lenguage{
+    display: flex;
+    align-items: center;
+}
+
+.lenguage>a:hover{
+    color: yellowgreen;
+    cursor:default;
+}
+
+.fa-brands:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.double-container{
+    display: flex;
+    border-bottom: solid white 1px;
+    width: 1200px;
+
 }
 .pink-box>div{
     padding-bottom: 2em;
@@ -242,15 +302,15 @@ footer>a{
     
 }
 
-.pink-box,.green-blu-box{
-    border-bottom: solid white 1px;
-}
-
 
 .footer-column{
     width: 25%;
     display: flex;
     flex-direction: column;
+}
+
+.footer-column>a:hover{
+    color: yellowgreen;
 }
 
 footer>section{
@@ -276,14 +336,4 @@ footer>section{
     
     font-size: 20px;
     padding: 5px;
-}
-/* DEBUG */
-
-.debug-black{
-    border: 4px dashed black;
-   
-}
-
-.debug-white{
-    border: 3px dashed white;
 }

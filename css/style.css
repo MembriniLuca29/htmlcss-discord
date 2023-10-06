@@ -309,6 +309,11 @@ footer>a{
     flex-direction: column;
 }
 
+.footer-column>h5{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
 .footer-column>a:hover{
     color: yellowgreen;
 }
@@ -336,4 +341,8 @@ footer>section{
     
     font-size: 20px;
     padding: 5px;
+}
+
+.pink-boxfoot+.xmac2{
+    padding: 15px;
 }
